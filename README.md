@@ -19,3 +19,14 @@ You should create one R script called run_analysis.R that does the following.
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each  subject.
   
   
+Executing functions:
+
+1. set working dir
+
+2. Script creates a relative ./data dir in which it downloads the .zip, extracts it and writes the result file (tidy_data.txt)
+run run_analysis.R
+
+3. writes data to ./data dir
+  > generates/overwrites ./CodeBook.md
+  > source('run_analysis.R')
+  > global variables tidyData & resultData (see CodeBook.md)
